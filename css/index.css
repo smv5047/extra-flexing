@@ -82,3 +82,42 @@ header h1 {
 header p {
 	padding: 0 12px;
 }
+
+/*Nav Styles */
+
+nav {
+	padding: 50px 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+a {
+	border: 2px solid skyblue;
+	border-radius: 20px;
+	color: skyblue;
+	background-color: white;
+	padding: 20px 50px;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: white;
+	background-color: skyblue;
+	text-decoration: underline;
+	transition: all .25s ease-out;
+}
+
+/* Photo Area Styles*/
+
+.photos {
+	display: flex;
+	flex-flow: column;
+	width: 100%;
+	height: 650px;
+}
+
+img {
+	height: auto;
+	max-width: 50%;
+}
